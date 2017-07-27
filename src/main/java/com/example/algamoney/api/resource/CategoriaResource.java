@@ -48,6 +48,4 @@ public class CategoriaResource {
 		return categoriaRepository.findOne(codigo);
 	}
 	
-	private void teste() {}
-
 }
