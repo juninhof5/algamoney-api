@@ -47,5 +47,7 @@ public class CategoriaResource {
 	private Categoria buscarPeloCodigo(@PathVariable Long codigo) {
 		return categoriaRepository.findOne(codigo);
 	}
+	
+	private void teste() {}
 
 }
