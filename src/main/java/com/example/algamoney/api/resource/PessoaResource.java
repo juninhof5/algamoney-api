@@ -24,14 +24,14 @@ import com.example.algamoney.api.repository.PessoaRepository;
 public class PessoaResource {
 	
 	@Autowired
-	PessoaRepository pessoaRepository;
+	private PessoaRepository pessoaRepository;
 	
 	@GetMapping
 	public List<Pessoa> listar() {
 		return pessoaRepository.findAll();
 	}
 
-	@GetMapping("{codigo}")
+	@GetMapping("/{codigo}")
 	public ResponseEntity<Pessoa> buscarPeloCodigo(@PathVariable Long codigo) {
 		Pessoa pessoa = pessoaRepository.findOne(codigo);
 		return (pessoa == null ? ResponseEntity.notFound().build() : ResponseEntity.ok(pessoa));
