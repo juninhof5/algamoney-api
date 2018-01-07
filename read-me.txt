@@ -1,0 +1,9 @@
+Projeto AlgaWorks - Angular, REST, e Spring BOOT
+
+
+- Ferramentas de Desenvolvimento 
+	- Spring Tool Suite (STS) - https://spring.io/tools/sts
+	- Spring Initializr - https://start.spring.io/
+	- Testar URLs Rest - Postman - https://www.getpostman.com
+	- Banco Dados MYSQL - mysql.com
+		- Aba Downloads / MySQL Community Edition / MySQL Community Server / Versão 5.7.18
